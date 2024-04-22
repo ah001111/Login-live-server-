@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="images/images.png">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+
+     <div class="demo w-75 m-auto shadow-lg p-5 mt-5">
+        <form class="form w-100 ">
+            <h1 class="pb-2 text-center">Smart Login System</h1>
+
+            <input type="text" placeholder="Enter your name" class="form-control mb-3" id="nameinput">
+            <div class="alert alert-danger mt-3 d-none" id="alert1" role="alert">
+                <strong class="text-danger bg-transparent">Start with Capital Letter !!</strong>
+            </div>
+
+            <input type="email" placeholder="Enter your email" class="form-control" id="emailInput">
+            <div class="alert alert-danger mt-3 d-none" id="alert2" role="alert">
+                <strong class="text-danger bg-transparent">Ex :ex@example.com</strong>
+            </div>
+
+
+            <input type="password" placeholder="Enter your password" class="form-control mt-3" id="passwordInput">
+            <div class="alert alert-danger mt-3 d-none" id="alert3" role="alert">
+                <strong class="text-danger bg-transparent">Must Enter Letter => 6 Letters !!</strong>
+            </div>
+    
+
+            <button type="button" class="mt-4 w-100 pt-1 pb-1 btn btn-outline-info d-none" id="Login">Login</button>
+            <button type="button" class="mt-4 w-100 pt-1 pb-1 btn btn-outline-info" id="SignUp">Sign Up</button>
+
+            <p class="text-center mt-3 d-none" id="Psignout">Don’t have an account?<a class="linkUp" href="#"> Sign Up</a></p>
+            <p class="text-center mt-3" id="Psignin">You have an account?<a class="linkIn" href="#"> Sign In</a></p>
+
+        </form>
+    </div> 
+
+    <div class="home-content d-none">
+        <nav class="shadow-lg">
+            <div class="container">
+                <div class="nav-items d-flex justify-content-between py-3">
+                    <a href="#" class="text-white text-decoration-none align-self-center fs-5">SMART LOGIN</a>
+                    <a href="index.html" id="logOutBtn" class="btn btn-outline-warning py-2">Logout</a>
+                </div>
+            </div>
+        </nav>
+        <div class="demoo w-75 p-5 shadow-lg">
+            <p>Welcome <span class="prag"></span></p>
+        </div>  
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

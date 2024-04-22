@@ -1,0 +1,41 @@
+body {
+    background-color: #24353f;
+}
+
+h1{
+    color: #17a2b8;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+}
+
+p a{
+    /* color: white; */
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+input{
+    background-color: #24353f!important;
+    color: white !important;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+
+.demoo{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.demoo p{
+    font-size: 3rem;
+}
